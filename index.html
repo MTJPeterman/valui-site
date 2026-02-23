@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Valui</title>
+  <meta name="description" content="Infra-first seed investor backing overlooked AI, cyber, and data infrastructure." />
+  <style>
+    :root{
+      --bg:#0b0d10;
+      --fg:#eef2f6;
+      --muted:#aab4c0;
+      --line:#1a2028;
+      --max:860px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--fg);
+      font:16px/1.5 ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+    }
+    .wrap{
+      max-width:var(--max);
+      margin:0 auto;
+      padding:72px 20px 64px;
+    }
+    header{
+      display:flex;
+      justify-content:space-between;
+      align-items:flex-start;
+      gap:24px;
+      margin-bottom:48px;
+    }
+    .brand{
+      font-weight:700;
+      letter-spacing:.06em;
+      font-size:18px;
+      text-transform:uppercase;
+    }
+    nav a{
+      color:var(--muted);
+      text-decoration:none;
+      margin-left:16px;
+      font-size:14px;
+    }
+    nav a:hover{color:var(--fg)}
+    h1{
+      margin:0 0 18px;
+      font-size:44px;
+      line-height:1.08;
+      letter-spacing:-.02em;
+    }
+    p{
+      margin:0 0 14px;
+      color:var(--fg);
+      font-size:18px;
+    }
+    .muted{color:var(--muted)}
+    .rule{
+      height:1px;
+      background:var(--line);
+      margin:42px 0;
+    }
+    .grid{
+      display:grid;
+      grid-template-columns:1fr;
+      gap:22px;
+    }
+    .card{
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:18px 18px;
+      background:rgba(255,255,255,.02);
+    }
+    .k{
+      font-size:12px;
+      letter-spacing:.12em;
+      text-transform:uppercase;
+      color:var(--muted);
+      margin-bottom:8px;
+    }
+    .item-title{
+      font-weight:700;
+      font-size:18px;
+      margin:0 0 6px;
+    }
+    .item-desc{
+      margin:0;
+      color:var(--muted);
+      font-size:16px;
+      line-height:1.45;
+    }
+    footer{
+      margin-top:54px;
+      color:var(--muted);
+      font-size:14px;
+    }
+    a.email{
+      color:var(--fg);
+      text-decoration:none;
+      border-bottom:1px solid rgba(238,242,246,.25);
+    }
+    a.email:hover{border-bottom-color:var(--fg)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">Valui</div>
+      <nav>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Software is temporary. Infrastructure endures.</h1>
+
+      <p>We invest at seed in the layer beneath the layer.</p>
+      <p class="muted">Not apps riding hype cycles. Systems markets depend on.</p>
+
+      <div class="rule"></div>
+
+      <div class="grid">
+        <div class="card">
+          <div class="k">Focus</div>
+          <p class="item-desc">AI with structural depth. Cyber recovery built for total compromise. Fraud and data rails that get stronger under stress. LLM-native systems designed for inevitability, not demos.</p>
+        </div>
+
+        <div class="card">
+          <div class="k">Filter</div>
+          <p class="item-desc">We back companies that still matter when funding dries up, when markets turn, when identity collapses.</p>
+        </div>
+      </div>
+
+      <div class="rule"></div>
+
+      <section id="portfolio">
+        <div class="k">Portfolio</div>
+
+        <div class="grid">
+          <div class="card">
+            <div class="item-title">HyperBunker</div>
+            <p class="item-desc">Offline recovery infrastructure for when identity and control planes collapse.</p>
+          </div>
+
+          <div class="card">
+            <div class="item-title">Extensity</div>
+            <p class="item-desc">Symbolic reasoning infrastructure beyond pure probabilistic LLM output.</p>
+          </div>
+        </div>
+      </section>
+
+      <div class="rule"></div>
+
+      <section id="about">
+        <div class="k">About</div>
+        <p>Valui is an infra-first seed investor focused on overlooked AI, cyber, and data infrastructure.</p>
+        <p class="muted">We optimize for structural leverage, not trend cycles.</p>
+        <p>If your company becomes critical infrastructure in five years, we want to see it before anyone else does.</p>
+      </section>
+
+      <div class="rule"></div>
+
+      <section id="connect">
+        <div class="k">Connect</div>
+        <p><a class="email" href="mailto:peterman@valui.ch">peterman@valui.ch</a></p>
+        <footer>
+          Valui GmbH<br/>
+          Zug, Switzerland
+        </footer>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
